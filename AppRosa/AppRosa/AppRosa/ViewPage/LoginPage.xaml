@@ -5,10 +5,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    BackgroundImage="#F2C5E0"
+    BackgroundColor="#F2C5E0"
     mc:Ignorable="d">
-    
-    <StackLayout VerticalOptions="Start">
+
+    <ScrollView>
+        <StackLayout VerticalOptions="Start"  HorizontalOptions="Center">
         <Image
             HorizontalOptions="Center"
             Source="HOAN.png"
@@ -16,20 +17,21 @@
 
         <StackLayout 
             x:Name="layoutMainPage"
-            Margin="30"
-            Padding="20"
+            Margin="10"
+            Padding="10"
             BackgroundColor="#870A30"
             HorizontalOptions="Center"
-            Spacing="20"
+            Spacing="10"
             VerticalOptions="Center"
             WidthRequest="350" >
-            
-            <Label
+
+                <Label
                 HorizontalOptions="Center"
-                Text="Introduzca su usuario"
+                Text="Introduzca su Usuario"
                 TextColor="White"
-                VerticalOptions="Start" />
-            <Entry
+                VerticalOptions="Start" /> 
+            
+                <Entry
                 x:Name="userName"
                 BackgroundColor="White"
                 HorizontalOptions="Center"
@@ -56,10 +58,11 @@
         </StackLayout>
 
         <Button
-            BackgroundColor="#F2C5E0"
+            BackgroundColor="#EC8FD0"
             Clicked="btnLoginClick"
             HorizontalOptions="Center"
             Text="Iniciar sesion" />
 
     </StackLayout>
+    </ScrollView>
 </ContentPage>
