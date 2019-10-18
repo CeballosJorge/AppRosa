@@ -6,18 +6,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="ViewPage\AddContacto.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ViewPage\DeleteContactoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="ViewPage\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ViewPage\ShowContactos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
   </ItemGroup>
 </Project>

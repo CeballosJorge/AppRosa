@@ -5,14 +5,61 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    BackgroundImage="HOAN.jpg"
+    BackgroundImage="#F2C5E0"
     mc:Ignorable="d">
-    <ContentPage.Content>
-        <StackLayout>
+    
+    <StackLayout VerticalOptions="Start">
+        <Image
+            HorizontalOptions="Center"
+            Source="HOAN.png"
+            VerticalOptions="Start" />
+
+        <StackLayout 
+            x:Name="layoutMainPage"
+            Margin="30"
+            Padding="20"
+            BackgroundColor="#870A30"
+            HorizontalOptions="Center"
+            Spacing="20"
+            VerticalOptions="Center"
+            WidthRequest="350" >
+            
             <Label
-                HorizontalOptions="CenterAndExpand"
-                Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" />
+                HorizontalOptions="Center"
+                Text="Introduzca su usuario"
+                TextColor="White"
+                VerticalOptions="Start" />
+            <Entry
+                x:Name="userName"
+                BackgroundColor="White"
+                HorizontalOptions="Center"
+                Placeholder="USERNAME"
+                TextColor="Black"
+                VerticalOptions="Start"
+                WidthRequest="305" />
+            
+            <Label
+                HorizontalOptions="Center"
+                Text="Introduzca su contraseña"
+                TextColor="White"
+                VerticalOptions="Start" />
+            
+            <Entry
+                x:Name="password"
+                BackgroundColor="White"
+                HorizontalOptions="Center"
+                IsPassword="true"
+                Placeholder="PASSWORD"
+                TextColor="Black"
+                VerticalOptions="Start"
+                WidthRequest="305" />
         </StackLayout>
-    </ContentPage.Content>
+
+        <Button
+            BackgroundColor="#F2C5E0"
+            Clicked="btnLoginClick"
+            HorizontalOptions="Center"
+            Text="Iniciar sesion" />
+
+    </StackLayout>
 </ContentPage>
