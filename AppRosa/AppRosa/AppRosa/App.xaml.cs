@@ -15,10 +15,10 @@ namespace AppRosa
         {
             InitializeComponent();
             Current = this;
- //           UsuarioModel modelUsuarioLocal = new UsuarioModel();
- //           MainPage = new MainPage(this);
+            UsuarioModel modelUsuarioLocal = new UsuarioModel();
+            MainPage = new MainPage(this, modelUsuarioLocal);
 
-             MainPage = new LoginPage(this);
+//             MainPage = new LoginPage(this);
         }
 
         public void ShowMainPage(UsuarioModel modelUsuarioLocal)

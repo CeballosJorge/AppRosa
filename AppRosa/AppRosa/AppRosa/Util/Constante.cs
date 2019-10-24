@@ -8,6 +8,9 @@ namespace AppRosa.Util
     {
         public static string baseAddress = "http://analytics.deacero.com:9002/Api/";
         public static string loginUrl = baseAddress + "Login/";
+        public static string usuarioUrl = baseAddress + "Usuario/";
+
+
 
     }
 }

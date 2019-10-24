@@ -8,7 +8,10 @@ namespace AppRosa.Model
     {
         public int Result { get; set; }
         public int ClaUsuario { get; set; }
+        public string NombreUsuario {get;set;}
+        public string TelefonoUsuario { get; set; }
         public string ApiKeyResult { get; set; }
         public DateTime CaducaResult { get; set; }
+
     }
 }

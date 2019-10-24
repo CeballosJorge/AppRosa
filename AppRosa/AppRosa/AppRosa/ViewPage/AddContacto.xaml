@@ -4,8 +4,58 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AppRosa.ViewPage.AddContacto">
+             x:Class="AppRosa.ViewPage.AddContacto"
+             BackgroundColor= '#D43790'>
   <!--Pages can be added as references or inline-->
+    <ScrollView>
+        <StackLayout VerticalOptions="Start"  HorizontalOptions="Center">
 
-    
+            <StackLayout    
+            x:Name="layoutAddContactoPage"
+            Margin="10"
+            Padding="10"
+            BackgroundColor="#870A30"
+            HorizontalOptions="Center"
+            Spacing="10"
+            VerticalOptions="Center"
+            WidthRequest="350" >
+
+                <Label  
+                HorizontalOptions="Center"
+                Text="Introduzca el nombre del contacto"
+                TextColor="White"
+                VerticalOptions="Start" />
+
+                <Entry    
+                x:Name="nombre"
+                BackgroundColor="White"
+                HorizontalOptions="Center"
+                Placeholder="NOMBRE"
+                TextColor="Black"
+                VerticalOptions="Start"
+                WidthRequest="305"/>
+
+                <Label  
+                HorizontalOptions="Center"
+                Text="Introduzca el numero del contacto"
+                TextColor="White"
+                VerticalOptions="Start" />
+
+                <Entry    
+                x:Name="telefono"
+                BackgroundColor="White"
+                HorizontalOptions="Center"
+                Placeholder="TELEFONO"
+                TextColor="Black"
+                VerticalOptions="Start"
+                WidthRequest="305"/>
+            </StackLayout>
+
+            <Button
+            BackgroundColor="#EC8FD0"
+            Clicked="btnGuardarClick"
+            HorizontalOptions="Center"
+            Text="Iniciar sesion" />
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

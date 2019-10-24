@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj": {}
+    "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj": {
+    "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj",
         "projectName": "AppRosa.iOS",
-        "projectPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj",
+        "projectPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj",
         "packagesPath": "C:\\Users\\JUCEBALLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\obj\\",
+        "outputPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
-                "projectPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj"
+              "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
+                "projectPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
+    "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
+        "projectUniqueName": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
         "projectName": "AppRosa",
-        "projectPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
+        "projectPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
         "packagesPath": "C:\\Users\\JUCEBALLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\obj\\",
+        "outputPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -4,6 +4,18 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             BackgroundColor= '#D43790'
              x:Class="AppRosa.ViewPage.ShowContactos">
- 
+    <ScrollView>
+        <StackLayout
+                x:Name="LayoutDataForm"
+                Margin="30"
+                Padding="20"
+                BackgroundColor="#2F3E47"
+                HorizontalOptions="Center"
+                Spacing="20"
+                VerticalOptions="Center"
+                WidthRequest="350" />
+    </ScrollView>
+
 </ContentPage>
