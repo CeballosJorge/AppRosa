@@ -8,8 +8,15 @@
              BackgroundColor= '#D43790'>
   <!--Pages can be added as references or inline-->
     <ScrollView>
-        <StackLayout VerticalOptions="Start"  HorizontalOptions="Center">
-
+        <StackLayout>
+            <Label 
+                HorizontalOptions="FillAndExpand" 
+                VerticalOptions="Start"
+                BackgroundColor="Black"
+                Text="Agregar Contacto"
+                TextColor="White"
+                FontSize="Title"/>
+            
             <StackLayout    
             x:Name="layoutAddContactoPage"
             Margin="10"
