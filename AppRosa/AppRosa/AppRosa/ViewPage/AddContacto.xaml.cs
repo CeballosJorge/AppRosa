@@ -20,6 +20,7 @@ namespace AppRosa.ViewPage
         public AddContacto(AppRosaInterface ilm, UsuarioModel usuarioModel)
         {
             InitializeComponent();
+            iml = ilm;
             usuarioModelLocal = usuarioModel;
 
         }
@@ -34,7 +35,10 @@ namespace AppRosa.ViewPage
                 ConsultaUsuarioPassword(nombre.Text, telefono.Text);
             }
         }
-
+        void btnRegresarClick(object sender, EventArgs e)
+        {
+            iml.ShowMainPage(usuarioModelLocal);
+        }
         public async void ConsultaUsuarioPassword(String nombre, String telefono)
         {
             HttpClient cliente = new HttpClient();

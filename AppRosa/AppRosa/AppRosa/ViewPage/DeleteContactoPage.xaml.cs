@@ -19,6 +19,7 @@ namespace AppRosa.ViewPage
         public DeleteContactoPage(AppRosaInterface ilm, UsuarioModel usuarioModel)
         {
             InitializeComponent();
+            iml = ilm;
             usuarioModelLocal = usuarioModel;
 
         }

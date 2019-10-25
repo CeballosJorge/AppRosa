@@ -55,7 +55,14 @@
             BackgroundColor="#EC8FD0"
             Clicked="btnGuardarClick"
             HorizontalOptions="Center"
-            Text="Iniciar sesion" />
+            Text="Guardar" />
+
+            <Button
+            BackgroundColor="#EC8FD0"
+            Clicked="btnRegresarClick"
+            HorizontalOptions="Center"
+            Text="Regresar" />
+
         </StackLayout>
     </ScrollView>
 </ContentPage>

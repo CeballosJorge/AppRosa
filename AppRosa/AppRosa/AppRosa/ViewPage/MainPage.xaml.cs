@@ -20,6 +20,7 @@ namespace AppRosa
         public MainPage(AppRosaInterface ilm, UsuarioModel usuarioModel)
         {
             InitializeComponent();
+            iml = ilm;
             usuarioModelLocal = usuarioModel;
         }
         void btnLogoutClick(object sender, EventArgs e)

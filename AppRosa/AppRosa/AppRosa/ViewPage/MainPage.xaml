@@ -29,9 +29,9 @@
                 Grid.Row="0"
                 Grid.Column="0"
                 BackgroundColor="#EC8FD0"
-                Clicked="btnEnviarUbicacionClick"
+                Clicked="btnContactosClick"
                 FontSize="Title"
-                Text="Enviar Ubicacion"
+                Text="Ver Lista de Contactos"
                 TextColor="White" />
 
             <Button
@@ -47,10 +47,11 @@
                 Grid.Row="1"
                 Grid.Column="0"
                 BackgroundColor="#EC8FD0"
-                Clicked="btnContactosClick"
+                Clicked="btnLogoutClick"
                 FontSize="Title"
-                Text="Ver Lista de Contactos"
+                Text="Cerrar sesion"
                 TextColor="White" />
+         
             <Button
                 Grid.Row="1"
                 Grid.Column="1"
@@ -59,14 +60,15 @@
                 FontSize="Title"
                 Text="Eliminar Contacto"
                 TextColor="White" />
+            
             <Button
                 Grid.Row="2"
                 Grid.Column="0"
                 Grid.ColumnSpan="2"
                 BackgroundColor="OrangeRed"
-                Clicked="btnLogoutClick"
+                Clicked="btnEnviarUbicacionClick"
                 FontSize="Title"
-                Text="Cerrar sesion"
+                Text="Enviar Ubicacion"
                 TextColor="White" />
         </Grid>
     </ScrollView>

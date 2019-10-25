@@ -20,10 +20,10 @@ namespace AppRosa.ViewPage
         UsuarioModel usuarioModelLocal = null;
         ListUsuarioModel listUsuarioModel = new ListUsuarioModel();
 
-
         public ShowContactos(AppRosaInterface ilm, UsuarioModel usuarioModel)
         {
             InitializeComponent();
+            iml = ilm;
             usuarioModelLocal = usuarioModel;
             List<Label> listLabel = new List<Label>();
 
@@ -31,17 +31,19 @@ namespace AppRosa.ViewPage
 
             foreach (UsuarioModel usuario in listUsuarioModel.Table)
             {
-                Label label = new Label();
-                label.Text = usuario.NombreUsuario;
-                label.VerticalOptions = LayoutOptions.Center;
-                label.TextColor = Color.Red;
-                label.FontAttributes = FontAttributes.Bold;
-                label.WidthRequest = 350;
+                Button buttonContacto = new Button();
 
-                LayoutDataForm.Children.Add(label);
+                //Label label = new Label();
+                buttonContacto.Text = usuario.NombreUsuario;
+                buttonContacto.VerticalOptions = LayoutOptions.Center;
+                buttonContacto.TextColor = Color.Red;
+                buttonContacto.FontAttributes = FontAttributes.Bold;
+                buttonContacto.WidthRequest = 350;
+
+                LayoutDataForm.Children.Add(buttonContacto);
 
                 StackLayout mistacklayout = this.Content.FindByName<StackLayout>("LayoutDataForm");
-                mistacklayout.Children.Add(label);
+                mistacklayout.Children.Add(buttonContacto);
             }
             Button buttonAgregarContacto = new Button();
             buttonAgregarContacto.Text = "Agregar Contacto";
