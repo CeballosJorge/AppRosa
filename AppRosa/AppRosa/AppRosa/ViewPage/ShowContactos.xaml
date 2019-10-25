@@ -7,6 +7,14 @@
              BackgroundColor= '#D43790'
              x:Class="AppRosa.ViewPage.ShowContactos">
     <ScrollView>
+        <StackLayout>
+            <Label 
+                HorizontalOptions="FillAndExpand" 
+                VerticalOptions="Start"
+                BackgroundColor="Black"
+                Text="Agregar Contacto"
+                TextColor="White"
+                FontSize="Title"/>
         <StackLayout
                 x:Name="LayoutDataForm"
                 Margin="30"
@@ -15,14 +23,8 @@
                 HorizontalOptions="Center"
                 Spacing="20"
                 VerticalOptions="Center"
-                WidthRequest="350" >
-            <Label 
-                HorizontalOptions="FillAndExpand" 
-                VerticalOptions="Start"
-                BackgroundColor="Black"
-                Text="Agregar Contacto"
-                TextColor="White"
-                FontSize="Title"/>
+                WidthRequest="350" />
+            
         </StackLayout>
     </ScrollView>
 
