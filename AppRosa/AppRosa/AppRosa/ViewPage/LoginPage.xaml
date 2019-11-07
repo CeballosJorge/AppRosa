@@ -5,64 +5,66 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    BackgroundColor="#F2C5E0"
+    BackgroundColor="White"
     mc:Ignorable="d">
-
     <ScrollView>
-        <StackLayout VerticalOptions="Start"  HorizontalOptions="Center">
-        <Image
-            HorizontalOptions="Center"
-            Source="HOAN.png"
-            VerticalOptions="Start" />
+        <StackLayout Padding="10,0,10,20" Spacing="15">
+            <Image
+                HorizontalOptions="Center"
+                Source="HOAN.png"
+                VerticalOptions="Start" 
+            />
 
-        <StackLayout 
-            x:Name="layoutMainPage"
-            Margin="10"
-            Padding="10"
-            BackgroundColor="#870A30"
-            HorizontalOptions="Center"
-            Spacing="10"
-            VerticalOptions="Center"
-            WidthRequest="350" >
+            <StackLayout 
+                x:Name="layoutMainPage"
+                BackgroundColor="#870A30"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="350" 
+                Padding="10,0,10,20" 
+                Spacing="15">
 
                 <Label
-                HorizontalOptions="Center"
-                Text="Introduzca su Usuario"
-                TextColor="White"
-                VerticalOptions="Start" /> 
-            
+                    HorizontalOptions="Center"
+                    Text="Introduzca su Usuario"
+                    TextColor="White"
+                    VerticalOptions="Start" 
+                />
+
                 <Entry
-                x:Name="userName"
-                BackgroundColor="White"
+                    x:Name="userName"
+                    BackgroundColor="White"
+                    HorizontalOptions="Center"
+                    Placeholder="USERNAME"
+                    TextColor="Black"
+                    VerticalOptions="Start"
+                    WidthRequest="305" 
+                />
+
+                <Label
+                    HorizontalOptions="Center"
+                    Text="Introduzca su contraseña"
+                    TextColor="White"
+                    VerticalOptions="Start" 
+                />
+
+                <Entry
+                    x:Name="password"
+                    BackgroundColor="White"
+                    HorizontalOptions="Center"
+                    IsPassword="true"
+                    Placeholder="PASSWORD"
+                    TextColor="Black"
+                    VerticalOptions="Start"
+                    WidthRequest="305" 
+                />
+            </StackLayout>
+            <Button
+                BackgroundColor="#EC8FD0"
+                Clicked="btnLoginClick"
                 HorizontalOptions="Center"
-                Placeholder="USERNAME"
-                TextColor="Black"
-                VerticalOptions="Start"
-                WidthRequest="305" />
-            
-            <Label
-                HorizontalOptions="Center"
-                Text="Introduzca su contraseña"
-                TextColor="White"
-                VerticalOptions="Start" />
-            
-            <Entry
-                x:Name="password"
-                BackgroundColor="White"
-                HorizontalOptions="Center"
-                IsPassword="true"
-                Placeholder="PASSWORD"
-                TextColor="Black"
-                VerticalOptions="Start"
-                WidthRequest="305" />
+                Text="Iniciar sesion" 
+            />
         </StackLayout>
-
-        <Button
-            BackgroundColor="#EC8FD0"
-            Clicked="btnLoginClick"
-            HorizontalOptions="Center"
-            Text="Iniciar sesion" />
-
-    </StackLayout>
     </ScrollView>
 </ContentPage>
