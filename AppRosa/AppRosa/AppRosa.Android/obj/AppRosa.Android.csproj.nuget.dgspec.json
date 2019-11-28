@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj": {}
+    "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj": {
+    "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj",
+        "projectUniqueName": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj",
         "projectName": "AppRosa.Android",
-        "projectPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj",
+        "projectPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj",
         "packagesPath": "C:\\Users\\JUCEBALLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\obj\\",
+        "outputPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
-                "projectPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj"
+              "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
+                "projectPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj"
               }
             }
           }
@@ -44,32 +44,36 @@
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.2, )"
+              "version": "[12.0.3, )"
             },
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
-              "version": "[28.0.0.1, )"
+              "version": "[28.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.3.0.991211, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.3.0.991211, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
+    "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
+        "projectUniqueName": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
         "projectName": "AppRosa",
-        "projectPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
+        "projectPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
         "packagesPath": "C:\\Users\\JUCEBALLOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\obj\\",
+        "outputPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -109,15 +113,19 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.2, )"
+              "version": "[12.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.3.0.991211, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.3.0.991211, )"
             }
           },
           "imports": [

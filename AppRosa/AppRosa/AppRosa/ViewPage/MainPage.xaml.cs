@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 
 namespace AppRosa
 {
@@ -22,6 +23,15 @@ namespace AppRosa
             InitializeComponent();
             iml = ilm;
             usuarioModelLocal = usuarioModel;
+            var map = new Xamarin.Forms.Maps.Map(
+            MapSpan.FromCenterAndRadius(
+                   new Position(37, -122), Distance.FromMiles(0.3)))
+            {
+                IsShowingUser = true,
+                HeightRequest = 100,
+                WidthRequest = 960,
+                VerticalOptions = LayoutOptions.FillAndExpand
+            };
         }
         void btnLogoutClick(object sender, EventArgs e)
         {
