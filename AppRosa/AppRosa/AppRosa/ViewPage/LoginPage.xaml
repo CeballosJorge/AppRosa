@@ -5,31 +5,29 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    BackgroundColor="White"
+    BackgroundImageSource="BACKGROUND.jpg"
     mc:Ignorable="d">
     <ScrollView>
         <StackLayout Padding="10,0,10,20" Spacing="15">
             <Image
                 HorizontalOptions="Center"
                 Source="HOAN.png"
-                VerticalOptions="Start" 
-            />
+                VerticalOptions="Start" />
 
-            <StackLayout 
+            <StackLayout
                 x:Name="layoutMainPage"
+                Padding="10,0,10,20"
                 BackgroundColor="#870A30"
                 HorizontalOptions="Center"
+                Spacing="15"
                 VerticalOptions="Center"
-                WidthRequest="350" 
-                Padding="10,0,10,20" 
-                Spacing="15">
+                WidthRequest="350">
 
                 <Label
                     HorizontalOptions="Center"
                     Text="Introduzca su Usuario"
                     TextColor="White"
-                    VerticalOptions="Start" 
-                />
+                    VerticalOptions="Start" />
 
                 <Entry
                     x:Name="userName"
@@ -38,15 +36,13 @@
                     Placeholder="USERNAME"
                     TextColor="Black"
                     VerticalOptions="Start"
-                    WidthRequest="305" 
-                />
+                    WidthRequest="305" />
 
                 <Label
                     HorizontalOptions="Center"
                     Text="Introduzca su contraseña"
                     TextColor="White"
-                    VerticalOptions="Start" 
-                />
+                    VerticalOptions="Start" />
 
                 <Entry
                     x:Name="password"
@@ -56,15 +52,13 @@
                     Placeholder="PASSWORD"
                     TextColor="Black"
                     VerticalOptions="Start"
-                    WidthRequest="305" 
-                />
+                    WidthRequest="305" />
             </StackLayout>
             <Button
                 BackgroundColor="#EC8FD0"
                 Clicked="btnLoginClick"
                 HorizontalOptions="Center"
-                Text="Iniciar sesion" 
-            />
+                Text="Iniciar sesion" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

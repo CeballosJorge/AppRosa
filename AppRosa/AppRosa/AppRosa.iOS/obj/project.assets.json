@@ -1183,24 +1183,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JUCEBALLOS\\.nuget\\packages\\": {},
+    "C:\\Users\\jorge\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj",
+      "projectUniqueName": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj",
       "projectName": "AppRosa.iOS",
-      "projectPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj",
-      "packagesPath": "C:\\Users\\JUCEBALLOS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\obj\\",
+      "projectPath": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\AppRosa.iOS.csproj",
+      "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+      "outputPath": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\JUCEBALLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1214,8 +1214,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
-              "projectPath": "C:\\Users\\JUCEBALLOS\\Source\\Repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj"
+            "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
+              "projectPath": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj"
             }
           }
         }

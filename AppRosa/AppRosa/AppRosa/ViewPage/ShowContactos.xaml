@@ -1,21 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             BackgroundColor= '#D43790'
-             x:Class="AppRosa.ViewPage.ShowContactos">
+<ContentPage
+    x:Class="AppRosa.ViewPage.ShowContactos"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundImageSource="BACKGROUND.jpg"
+    mc:Ignorable="d">
     <ScrollView>
         <StackLayout>
-            <Label 
-                HorizontalOptions="FillAndExpand" 
-                VerticalOptions="Start"
+            <Label
                 BackgroundColor="Black"
+                FontSize="Title"
+                HorizontalOptions="FillAndExpand"
                 Text="Agregar Contacto"
                 TextColor="White"
-                FontSize="Title"/>
-        <StackLayout
+                VerticalOptions="Start" />
+            <StackLayout
                 x:Name="LayoutDataForm"
                 Margin="30"
                 Padding="20"
@@ -24,7 +25,7 @@
                 Spacing="20"
                 VerticalOptions="Center"
                 WidthRequest="350" />
-            
+
         </StackLayout>
     </ScrollView>
 

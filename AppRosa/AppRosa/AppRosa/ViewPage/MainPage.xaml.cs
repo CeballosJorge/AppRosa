@@ -17,15 +17,28 @@ namespace AppRosa
         AppRosaInterface iml = null;
         UsuarioModel usuarioModelLocal = null;
         string locationString = null;
-
         public MainPage(AppRosaInterface ilm, UsuarioModel usuarioModel)
         {
             InitializeComponent();
             iml = ilm;
             usuarioModelLocal = usuarioModel;
-            var map = new Xamarin.Forms.Maps.Map(
-            MapSpan.FromCenterAndRadius(
-                   new Position(37, -122), Distance.FromMiles(0.3)))
+            buscaAlerta();
+        }
+
+        async void buscaAlerta()
+        {
+            /*
+            if()
+            {
+                ubicacionActual();
+            }
+            */
+        }
+        async void ubicacionActual()
+        {
+            var request = new GeolocationRequest(GeolocationAccuracy.Best);
+            var location = await Geolocation.GetLocationAsync(request);
+            var map = new Xamarin.Forms.Maps.Map(MapSpan.FromCenterAndRadius(new Position(location.Latitude, location.Longitude), Distance.FromKilometers(0.3)))
             {
                 IsShowingUser = true,
                 HeightRequest = 100,
@@ -33,6 +46,7 @@ namespace AppRosa
                 VerticalOptions = LayoutOptions.FillAndExpand
             };
         }
+
         void btnLogoutClick(object sender, EventArgs e)
         {
             iml.ShowLogout();
@@ -62,9 +76,9 @@ namespace AppRosa
 
         async void findLocation()
         {
-            var request = new GeolocationRequest(GeolocationAccuracy.Medium);
+            var request = new GeolocationRequest(GeolocationAccuracy.Best);
             var location = await Geolocation.GetLocationAsync(request);
-
+            
             if (location != null)
             {
                 locationString = ($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");

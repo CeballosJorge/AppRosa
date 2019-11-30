@@ -4,9 +4,9 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    BackgroundColor= 'White'
     xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundImageSource="BACKGROUND.jpg"
     mc:Ignorable="d">
     <ScrollView>
         <Grid
@@ -15,86 +15,82 @@
             RowSpacing="10">
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
             <Button
                 Grid.Row="0"
                 Grid.Column="0"
-                Grid.ColumnSpan="2"
+                Grid.ColumnSpan="4"
                 BackgroundColor="OrangeRed"
+                BorderRadius="30"
                 Clicked="btnEnviarUbicacionClick"
                 FontSize="Title"
                 Text="Enviar Ubicacion"
-                BorderRadius="30"
-                TextColor="White" 
-            />
-            
+                TextColor="Black" />
+
             <Button
                 Grid.Row="1"
-                Grid.Column="0"
-                BackgroundColor="#EC8FD0"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                BackgroundColor="#e3e4e5"
+                BorderRadius="30"
                 Clicked="btnContactosClick"
                 FontSize="Title"
-                Text="Ver Lista de Contactos"
-                BorderRadius="30"
-                TextColor="White"
-                Grid.ColumnSpan="2"
-            />
+                Text="Lista de Contactos"
+                TextColor="Black" />
 
             <Button
                 Grid.Row="2"
-                Grid.Column="0"
-                BackgroundColor="#EC8FD0"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                BackgroundColor="#e3e4e5"
+                BorderRadius="30"
                 Clicked="btnAgregarContactoClick"
                 FontSize="Title"
                 Text="Agregar Contacto"
-                BorderRadius="30"
-                TextColor="White"
-                Grid.ColumnSpan="2"
-            />
+                TextColor="Black" />
 
             <Button
                 Grid.Row="3"
-                Grid.Column="0"
-                BackgroundColor="#EC8FD0"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                BackgroundColor="#e3e4e5"
+                BorderRadius="30"
                 Clicked="btnLogoutClick"
                 FontSize="Title"
                 Text="Cerrar sesion"
-                BorderRadius="30"
-                TextColor="White"
-                Grid.ColumnSpan="2"
-            />
+                TextColor="Black" />
 
             <Button
                 Grid.Row="4"
-                Grid.Column="0"
-                BackgroundColor="#EC8FD0"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                BackgroundColor="#e3e4e5"
+                BorderRadius="30"
                 Clicked="btnBajaContactoClick"
                 FontSize="Title"
                 Text="Eliminar Contacto"
-                BorderRadius="30"
-                TextColor="White"
-                Grid.ColumnSpan="2"
-            />
+                TextColor="Black" />
 
             <maps:Map
+                x:Name="MyMap"
                 Grid.Row="4"
                 Grid.Column="0"
-                Grid.ColumnSpan="2"
-                x:Name="MyMap"
-                WidthRequest="320" 
-                HeightRequest="200" 
-            />
+                Grid.ColumnSpan="4"
+                HeightRequest="200"
+                WidthRequest="320" />
         </Grid>
     </ScrollView>
 
