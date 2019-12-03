@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj": {}
+    "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj": {
+    "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj",
+        "projectUniqueName": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj",
         "projectName": "AppRosa.Android",
-        "projectPath": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj",
-        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\obj\\",
+        "projectPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\AppRosa.Android.csproj",
+        "packagesPath": "C:\\Users\\JUCEBALLOS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JUCEBALLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
-                "projectPath": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj"
+              "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
+                "projectPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj"
               }
             }
           }
@@ -66,21 +66,21 @@
         }
       }
     },
-    "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
+    "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
+        "projectUniqueName": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
         "projectName": "AppRosa",
-        "projectPath": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
-        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio\\XamarinJorgeCeballos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\obj\\",
+        "projectPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\AppRosa.csproj",
+        "packagesPath": "C:\\Users\\JUCEBALLOS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JUCEBALLOS\\source\\repos\\CeballosJorge\\AppRosa\\AppRosa\\AppRosa\\AppRosa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JUCEBALLOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

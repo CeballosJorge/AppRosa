@@ -22,7 +22,7 @@ namespace AppRosa
             InitializeComponent();
             iml = ilm;
             usuarioModelLocal = usuarioModel;
-            buscaAlerta();
+            ubicacionActual();
         }
 
         async void buscaAlerta()
@@ -38,13 +38,20 @@ namespace AppRosa
         {
             var request = new GeolocationRequest(GeolocationAccuracy.Best);
             var location = await Geolocation.GetLocationAsync(request);
-            var map = new Xamarin.Forms.Maps.Map(MapSpan.FromCenterAndRadius(new Position(location.Latitude, location.Longitude), Distance.FromKilometers(0.3)))
+            /*
+            MapView = new Xamarin.Forms.Maps.Map(MapSpan.FromCenterAndRadius(new Position(location.Latitude, location.Longitude), Distance.FromKilometers(0.3)))
             {
                 IsShowingUser = true,
                 HeightRequest = 100,
                 WidthRequest = 960,
                 VerticalOptions = LayoutOptions.FillAndExpand
             };
+            */
+            MapView.MoveToRegion(
+               MapSpan.FromCenterAndRadius(
+                   new Position(location.Latitude, location.Longitude), Distance.FromKilometers(0.3)));
+            MapView.MapType = MapType.Street;
+
         }
 
         void btnLogoutClick(object sender, EventArgs e)
